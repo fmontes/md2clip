@@ -7,7 +7,7 @@ Apps like Notion, Slack, Mail, and Google Docs will paste it as rich text.
 ## Install
 
 ```bash
-npm install -g md2clip
+npm install -g @fmontes/md2clip
 ```
 
 ## Usage
