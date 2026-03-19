@@ -1,0 +1,27 @@
+{
+  "name": "@fmontes/md2clip",
+  "version": "1.0.0",
+  "description": "Pipe markdown, get HTML in your clipboard with proper HTML MIME type",
+  "type": "module",
+  "bin": {
+    "md2clip": "./md2clip.js"
+  },
+  "files": [
+    "md2clip.js"
+  ],
+  "scripts": {
+    "test": "echo '**hello** _world_' | node md2clip.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["markdown", "clipboard", "html", "cli"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmontes/md2clip"
+  }
+}
